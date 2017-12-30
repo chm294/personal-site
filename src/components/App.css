@@ -1,0 +1,76 @@
+
+.App {
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear;
+  height: 80px; */
+}
+
+.header-container {
+  background-color:white  ;
+}
+
+.header {
+  display: block;
+  color: #F28E62;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  justify-content: center;  
+  /* height: 50px; */
+  /* padding: 10px; */
+  font-size: 450%;
+  flex-wrap:wrap;
+}
+
+.App-title {
+  /* font-size: 1.5em; */
+}
+
+.App-intro {
+  /* font-size: large; */
+}
+
+@keyframes App-logo-spin {
+  /* from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); } */
+}
+
+.navbar {
+  display: block;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-evenly;  
+  padding: 20px
+}
+
+.navitem {
+  padding:5px
+}
+
+.navitem:hover {
+  color:#F28E62
+}
+
+.download-res-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+
+}
+
+.download-res-footer:hover {
+  color: #F28E62
+}
+
+.body-text {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  flex-wrap: wrap;
+  justify-content: center;
+}
