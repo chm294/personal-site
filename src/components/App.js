@@ -3,6 +3,8 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import './App.css';
 import Introduction from './Introduction.jsx';
 import Resume from './Resume';
+import Applications from './Applications';
+import Blurb from './Blurb';
 
 
 class App extends Component {
@@ -11,23 +13,20 @@ class App extends Component {
       <Router>
         <div className="App">
           <div className="header-container">
-            <h1 className="header">Christine Ma</h1>
+            <Link to="/" className="header">Christine Ma</Link>
           </div>
         <div>
+
           <nav className="navbar"> 
-            <div className="navitem">
-              Resume
-            </div>
-            <div className="navitem">
-              Applications
-            </div>
-            <div className="navitem">
-              Blob
-            </div>
+            <Link to="Resume" className="navitem">Resume</Link>
+            <Link to="/Applications" className="navitem">Applications</Link>
+            <Link to="Blurb" className="navitem">Blurb</Link>
           </nav>
         </div>
-          <Route exact path="/" component={Introduction}/>
-          <Route exact path ="/resume" component={Resume} />  
+          <Route exact path="/" component={Introduction} />
+          <Route exact path="/Resume" component={Resume} />
+          <Route exact path="/Applications" component={Applications} />
+          <Route exact path="/Blurb" component={Blurb} />
         </div>
       </Router>
     );

@@ -9,15 +9,10 @@ export default class Introduction extends React.Component {
 	render() {
 		return (
 			<div className="body-text">
-				<div>
-				Hello, my name is Christine Ma. I am a full stack software developer.
-				I studied at NYU majoring in Art History and hold a minor in Urban Design.
-				</div>
+				Hello, my name is Christine Ma. I am a full stack software developer. I studied at NYU majoring in Art History and hold a minor in Urban Design.
 				<br/>
 				<br/>
-				<div>
 				My interests include cooking, 2-D animation, and digital design. 
-			</div>
 			</div>
 		)
 	}
