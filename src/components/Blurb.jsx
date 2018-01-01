@@ -14,13 +14,7 @@ export default class Blurb extends React.Component {
 				<div className="blurb-text">
 					<div className="app-header">Review: Spirited Away</div>
 						Written 2017<br/>
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text
+						Coming soon.
 					</div>
 				</div>
 				<div className="app-container">
@@ -28,13 +22,7 @@ export default class Blurb extends React.Component {
 				<div className="blurb-text">
 					<div className="app-header">Architectural Drawing and Model: Donald Judd Standing Desk</div>
 						Created 2016 <br/> 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text
+						
 					</div>
 				</div>
 				<div className="app-container">
@@ -42,12 +30,7 @@ export default class Blurb extends React.Component {
 				<div className="blurb-text">
 					<div className="app-header">Architectural Drawing and Model: Concept Cube</div>
 						Created 2016 <br/> 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text 
-						sample text sample text sample text sample text sample text
+						
 					</div>
 				</div>
 			</div>
