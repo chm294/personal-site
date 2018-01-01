@@ -8,9 +8,22 @@ export default class Blurb extends React.Component {
 
 	render() {
 		return (
-			<div className="content-container body-text">
-				this is a personal blurb blurb
+			<div className="content-container">
+				<div className="app-container">
+						<img className="demo-gifs" src="./images/spiritedaway-food.jpg" />
+				<div className="blurb-text">
+					<div className="app-header">Review: Spirited Away</div>
+						sample text sample text sample text sample text sample text 
+						sample text sample text sample text sample text sample text 
+						sample text sample text sample text sample text sample text 
+						sample text sample text sample text sample text sample text 
+						sample text sample text sample text sample text sample text 
+						sample text sample text sample text sample text sample text 
+						sample text sample text sample text sample text sample text
+					</div>
+				</div>
 			</div>
+
 		)
 	}
 }

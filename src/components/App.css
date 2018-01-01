@@ -1,8 +1,8 @@
 
 .content-container {
-  padding: 50px;
-  margin-left: 50px;
-  margin-right: 80px;
+  /* padding: 50px; */
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .App-logo {
@@ -144,12 +144,8 @@
 }
 
 .expand-button {
-  color:black;
-  font-size: 20px;
-}
-
-.expand-button {
   font-size: 25px;
+  padding-right: 20px;
   border: none;
   background: none;
   color: black;
@@ -184,19 +180,46 @@
 
 /* /////////////////////// APPLICATIONS CSS ///////////////////////*/
 
-.app-name {
-  text-decoration: none;
+.app-container {
+  padding: 20px;
+  width: 100%;
   display: inline-block;
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  font-weight: 400;
-  font-size: 22px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items:flex-start;
+  align-content: flex-start;
+  /* border-bottom: 1px solid rgb(228, 226, 226); */
 }
 
+.app-name {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items:flex-start;
+  align-content: flex-start;
+  font-weight: 400;
+  font-size: 150%;
+}
+
+.app-description-container {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+.app-header {
+  font-size: 150%;
+}
+
+
 .demo-gifs {
-  display:flex;
-  width: 400px;
+  /* display:inline-block; */
+  float: left;
+  width: 45%;
   transition: width .3s;
+  margin-right: 20px;
+  min-width: 200px;
 }
 
 .demo-gifs:hover {
@@ -204,8 +227,10 @@
   width: 100%;
 }
 
-.demo-gif-container {
-  border-style: solid;
-  border-width: 5px;
-  border: grey;
+/* /////////////////////// BLURB CSS ///////////////////////*/
+
+.blurb-text {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
 }
