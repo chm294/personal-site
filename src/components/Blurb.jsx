@@ -8,7 +8,7 @@ export default class Blurb extends React.Component {
 
 	render() {
 		return (
-			<div className="body-text">
+			<div className="content-container body-text">
 				this is a personal blurb blurb
 			</div>
 		)

@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="content-container">
           <div className="header-container">
             <Link to="/" className="header">Christine Ma</Link>
           </div>
