@@ -5,6 +5,16 @@
   margin-right: 10%;
 }
 
+a {
+  color: black;
+  transition: color .5s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F28E62;
+}
+
 .App-logo {
   /* animation: App-logo-spin infinite 20s linear;
   height: 80px; */
@@ -52,7 +62,10 @@
 
 .navitem {
   text-decoration:none;
-  padding:5px;
+  padding: 5px;
+  padding-left:15px;
+  padding-right:15px;
+  transition: color .5s;
 }
 
 .navitem:hover {
@@ -61,7 +74,7 @@
 }
 
 .text-container {
-  padding: 50px;
+  padding-bottom: 50px;
 }
 
 .body-text {
@@ -101,6 +114,7 @@
   text-decoration: none;
   color: black;
   padding: 20px;
+  transition: color .5s;
 }
 
 .contact-item:hover {
@@ -123,7 +137,7 @@
   font-family: 'Raleway', sans-serif;
   display: flex;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 150%;
 }
 
 .sub-title {
@@ -154,6 +168,7 @@
 
 .expand-button:focus {
   outline:0;
+  transition: color .5s;
 }
 
 .expand-button:hover {
@@ -170,6 +185,8 @@
   width: 100%;
   background-color: white;
   text-align: center;
+  transition: color .5s;
+
 }
 
 .download-res-footer:hover {
@@ -181,7 +198,8 @@
 /* /////////////////////// APPLICATIONS CSS ///////////////////////*/
 
 .app-container {
-  padding: 20px;
+  padding: 10px;
+  margin-bottom: 50px;
   width: 100%;
   display: inline-block;
   flex-direction: column;
@@ -200,6 +218,7 @@
   align-content: flex-start;
   font-weight: 400;
   font-size: 150%;
+  padding: 10px;
 }
 
 .app-description-container {
