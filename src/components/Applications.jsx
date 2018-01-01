@@ -14,7 +14,7 @@ export default class Applications extends React.Component {
 						<img className="demo-gifs" src="./images/Muster.gif" />
 					<div className="app-description-container">
 						<div className="app-header">Full Stack Software Engineer</div>
-							<em>A social-oriented book loan, trade, and purchasing application that simulates a simplified experience of a library</em>
+							<em>A social-oriented book loan, trade, and purchasing application that simulates the experience of a library</em>
 							<br/><br/>
 							Team of 4 <br/>
 							November 27 - December 23, 2017 <br/>
@@ -37,17 +37,16 @@ export default class Applications extends React.Component {
 						<div className="app-header">Website Design and UI Management</div>
 						<em>
 							A website for Steven Holl Architect's nonprofit gallery, TSpace, located in Hudson Valley, New York.
-							The website aims to emulate TSpace's mission to integrate experimental visual arts, architecture poetry, music, 
+							The website aims to emulate TSpace's mission to integrate experimental visual arts, architecture, poetry, music, 
 							and nature.
 						</em>
 						<br/><br/>
 						February - June, 2016 <br/>
-						<br/><br/>
+						<br/>
 							I worked between the web developer, web designer, and the board members of The Steven Myron Holl Foundation 
-							to help bring together a web application that encompasses the non-profit's vision. This involved an in-depth reorganization
-							of the foundation's archives in order to gather necessary content. I helped establish the flow of information 
-							and user experience and interface with the given content as well as information I gathered 
-							from reaching out to invited artists, curators, and gallery guests.
+							to bring together a web application that encompasses the non-profit's vision. This involved an in-depth reorganization
+							of the foundation's archives in order to gather necessary content. Not only did I help design the website architecture, 
+							user experience and interface, but I was also responsible for researching and writing content.
 					</div>
 				</div>
 			</div>

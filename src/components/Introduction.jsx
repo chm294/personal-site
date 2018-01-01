@@ -9,12 +9,10 @@ export default class Introduction extends React.Component {
 	render() {
 		return (
 			<div className="content-container body-text">
-				Hello, my name is Christine Ma. 
-				I am a full stack software developer. 
-				I studied at NYU majoring in Art History and hold a minor in Urban Design.
+				<p>Hello, my name is Christine Ma, and I am a full stack software developer.</p>
 				<br/>
-				<br/>
-				My interests include cooking, <a href="https://vimeo.com/user53596363" target="_blank">fiddling with 2-D animation </a>, and digital design. 
+				<p>I studied at NYU majoring in Art History and hold a minor in Urban Design. 
+				My interests include cooking, <a href="https://vimeo.com/user53596363" target="_blank">fiddling with 2-D animation </a>, and digital design.</p> 
 				<div className="contact-footer">
 					<a href="https://www.linkedin.com/in/christinehma/" target="_blank">
 						<img src="https://www.usplastic.com/mobile/images/icons/social/linkedin.svg" className="icon" alt="LinkedIn"/> 
