@@ -9,7 +9,7 @@ export default class Applications extends React.Component {
 	render() {
 		return (
 			<div className="content-container">
-				<div className="app-container">
+				<section className="app-container">
 						<a className="app-name" href="https://muster-94d83.firebaseapp.com/" target="_blank"> Muster </a>
 						<img className="demo-gifs" src="./images/Muster.gif" />
 					<div className="app-description-container">
@@ -29,8 +29,8 @@ export default class Applications extends React.Component {
 							one compartment to another. 
 							 
 					</div>
-				</div>
-				<div className="app-container">
+				</section>
+				<section className="app-container">
 						<a className="app-name" href="http://tspacerhinebeck.org/" target="_blank"> TSpace Rhinebeck </a>
 						<img className="demo-gifs" src="./images/TspaceRhinebeck.gif" />
 					<div className="app-description-container">
@@ -48,7 +48,7 @@ export default class Applications extends React.Component {
 							of the foundation's archives in order to gather necessary content. Not only did I help design the website architecture, 
 							user experience and interface, but I was also responsible for researching and writing content.
 					</div>
-				</div>
+				</section>
 			</div>
 		)
 	}
