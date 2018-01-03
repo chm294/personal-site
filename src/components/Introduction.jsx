@@ -17,7 +17,7 @@ export default class Introduction extends React.Component {
 				and learning about painting conservation. 
 				<br/><br/>
 				If you have a job opportunity or lead to my next expedition, let's chat over coffee! 
-				<p className="important-text">christinehma214@gmail.com </p>
+				<p className="important-text">ChristineMa.engineer@gmail.com </p>
 				</p>
 				<div className="contact-footer">
 					<a href="https://www.linkedin.com/in/christinehma/" target="_blank">
