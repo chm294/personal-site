@@ -12,16 +12,17 @@ class App extends Component {
     return (
       <Router>
         <div className="content-container">
+        <div className="parallax">
           <div className="header-container">
             <Link to="/" className="header">Christine Ma</Link>
           </div>
         <div>
-
           <nav className="navbar"> 
             <Link to="Resume" className="navitem">Resume</Link>
             <Link to="/Applications" className="navitem">Applications</Link>
             <Link to="Blurb" className="navitem">Blurb</Link>
           </nav>
+        </div>
         </div>
           <Route exact path="/" component={Introduction} />
           <Route exact path="/Resume" component={Resume} />

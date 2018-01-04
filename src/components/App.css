@@ -1,8 +1,20 @@
 
 .content-container {
-  /* padding: 50px; */
-  margin-left: 5%;
-  margin-right: 5%;
+  padding: 50px;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+}
+
+.parallax {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/ace78555411135.59944f96c5023.png");
+  min-height: 500px; 
+  position: relative;
+
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -26,7 +38,7 @@ a:hover {
 
 .header-container {
   display: block;
-  background-color:white  ;
+  background-color:none  ;
 }
 
 .header {
@@ -57,6 +69,8 @@ a:hover {
   text-decoration:none;
   display: block;
   display: flex;
+  position: absolute;
+  bottom: 0;
   font-family: 'Raleway', sans-serif;
   flex-direction: row;
   flex-wrap:wrap;
@@ -203,7 +217,10 @@ a:hover {
 
 .app-container {
   padding: 10px;
+  margin-top: 50px;
   margin-bottom: 50px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
   width: 100%;
   display: inline-block;
   flex-direction: column;
