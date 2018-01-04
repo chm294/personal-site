@@ -1,8 +1,8 @@
 
 .content-container {
   padding: 50px;
-  /* margin-left: 5%;
-  margin-right: 5%; */
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .parallax {
@@ -70,7 +70,7 @@ a:hover {
   display: block;
   display: flex;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   font-family: 'Raleway', sans-serif;
   flex-direction: row;
   flex-wrap:wrap;
@@ -257,6 +257,7 @@ a:hover {
   /* display:inline-block; */
   float: left;
   width: 45%;
+  margin-right: 10%;
   transition: width .3s;
   margin-right: 20px;
   min-width: 200px;
@@ -264,7 +265,9 @@ a:hover {
 
 .demo-gifs:hover {
   display:flex;
-  width: 100%;
+  width: 80%;
+  margin-left:10%;
+  margin-right:10%;
 }
 
 /* /////////////////////// BLURB CSS ///////////////////////*/
