@@ -1,20 +1,20 @@
 
 .content-container {
-  padding: 50px;
+  padding: 20px;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .parallax {
-  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/ace78555411135.59944f96c5023.png");
-  min-height: 500px; 
+  background-image: url("https://pbs.twimg.com/media/DG47n23XYAEvSUD.jpg");
+  min-height: 800px; 
   position: relative;
 
   /* parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 a {
@@ -89,6 +89,12 @@ a:hover {
 .navitem:hover {
   text-decoration:none;
   color:#F28E62
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .text-container {

@@ -6,8 +6,13 @@ import Resume from './Resume';
 import Applications from './Applications';
 import Blurb from './Blurb';
 
-
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    } 
+  }
   render() {
     return (
       <Router>
@@ -17,7 +22,7 @@ class App extends Component {
             <Link to="/" className="header">Christine Ma</Link>
           </div>
         <div>
-          <nav className="navbar"> 
+          <nav className="navbar" id="navbar"> 
             <Link to="Resume" className="navitem">Resume</Link>
             <Link to="/Applications" className="navitem">Applications</Link>
             <Link to="Blurb" className="navitem">Blurb</Link>
