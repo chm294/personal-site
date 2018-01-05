@@ -69,6 +69,7 @@ a:hover {
   text-decoration:none;
   display: block;
   display: flex;
+  background: rgba(255, 255, 255, 0.363);
   position: absolute;
   bottom: 10px;
   font-family: 'Raleway', sans-serif;
