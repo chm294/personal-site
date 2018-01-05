@@ -9,7 +9,7 @@ export default class DownloadResFooter extends React.Component {
 	render() {
 		return (
 			<div >
-				<a className="download-res-footer body-text" href="./ChristineMa.pdf" download="Christine Ma Resume">
+				<a className="download-res-footer body-text" href="./ChristineMaResume.pdf" download="Christine Ma Resume">
 						Download Resume
 					</a>
 			</div>
