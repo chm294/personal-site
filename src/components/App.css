@@ -71,7 +71,8 @@ a:hover {
   display: flex;
   background: rgba(255, 255, 255, 0.363);
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
+  width:100%;
   font-family: 'Raleway', sans-serif;
   flex-direction: row;
   flex-wrap:wrap;
