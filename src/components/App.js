@@ -19,7 +19,7 @@ class App extends Component {
         <div className="content-container">
         <div className="parallax">
           <div className="header-container">
-            <Link to="/" className="header">Christine Ma</Link>
+            <Link to="/" className="header">christine ma</Link>
           </div>
         <div>
           <nav className="navbar" id="navbar"> 

@@ -44,7 +44,7 @@ a:hover {
 .header {
   text-decoration:none;
   color: #F28E62;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Pattaya';
   display: flex;
   justify-content: center;  
   font-size: 400%;
@@ -69,7 +69,7 @@ a:hover {
   text-decoration:none;
   display: block;
   display: flex;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.616);
   position: absolute;
   bottom: 0px;
   width:100%;
