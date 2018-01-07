@@ -69,7 +69,7 @@ a:hover {
   text-decoration:none;
   display: block;
   display: flex;
-  background: rgba(255, 255, 255, 0.363);
+  background: rgb(255, 255, 255);
   position: absolute;
   bottom: 0px;
   width:100%;
@@ -110,7 +110,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  font-size: large;
+  font-size: 15;
 }
 
 .card-container {
@@ -163,7 +163,7 @@ a:hover {
   font-family: 'Raleway', sans-serif;
   display: flex;
   font-weight: 400;
-  font-size: 150%;
+  font-size: 25px;
 }
 
 .sub-title {
@@ -246,7 +246,7 @@ a:hover {
   align-items:flex-start;
   align-content: flex-start;
   font-weight: 400;
-  font-size: 150%;
+  font-size: 25px;
   padding: 10px;
 }
 
@@ -257,7 +257,7 @@ a:hover {
 }
 
 .app-header {
-  font-size: 150%;
+  font-size: 25px;
 }
 
 
