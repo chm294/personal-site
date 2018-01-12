@@ -1,8 +1,9 @@
 
 .content-container {
-  padding: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  /* padding: 20px; */
+  /* margin-left: 15%;
+  margin-right: 15%; */
+  margin-bottom: 10%;
 }
 
 .parallax {
@@ -29,6 +30,12 @@ a:hover {
 
 .important-text {
   color: #F28E62;
+  width:100%;
+  text-align: center;
+}
+
+p {
+  width: 80%;
 }
 
 .App-logo {
@@ -77,12 +84,12 @@ a:hover {
   flex-direction: row;
   flex-wrap:wrap;
   justify-content: space-evenly;  
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .navitem {
   text-decoration:none;
-  padding: 5px;
+  padding-top: 15px;
   padding-left:15px;
   padding-right:15px;
   transition: color .5s;
@@ -120,6 +127,8 @@ a:hover {
   justify-content: space-around;
   display: block;
   padding: 25px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 /* /////////////////////// INTRODUCTION CSS ///////////////////////*/
@@ -224,12 +233,12 @@ a:hover {
 /* /////////////////////// APPLICATIONS CSS ///////////////////////*/
 
 .app-container {
-  padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  /* padding-left: 50px;
-  padding-right: 50px; */
-  width: 100%;
+  /* padding: 5px; */
+  margin-top: 5%;
+  /* margin-bottom: 2%; */
+  /* margin-right: 15%; */
+  margin-left:15%;
+  width: 70%;
   display: inline-block;
   flex-direction: column;
   flex-wrap: wrap;
@@ -257,25 +266,24 @@ a:hover {
 }
 
 .app-header {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 
 .demo-gifs {
   /* display:inline-block; */
   float: left;
-  width: 45%;
+  width: 35%;
   margin-right: 10%;
   transition: width .3s;
   margin-right: 20px;
-  min-width: 200px;
+  min-width: 250px;
 }
 
 .demo-gifs:hover {
-  display:flex;
-  width: 80%;
-  margin-left:10%;
-  margin-right:10%;
+  display:block;
+  width: 100%;
+  /* margin-left:10%; */
 }
 
 /* /////////////////////// BLURB CSS ///////////////////////*/
