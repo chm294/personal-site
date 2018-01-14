@@ -10,10 +10,10 @@ export default class Introduction extends React.Component {
 		return (
 			<div className="content-container body-text">
 				<p>Hello, my name is Christine Ma, and I am a full stack software engineer 
-				working mainly in javascript. As for front-end, I am proficient with React and 
+				working mainly in javascript. As for front-end, I am proficient in React and 
 				familiar with Angular. 
-				I have experience with Node.js, Algolia, Express, Axios, Firebase, 
-				SQL, Sequelize, MongoDB, Mongoose, Webpack, and Babel. 
+				I have experience with NodeJS, Express, Axios, 
+				SQL, Sequelize, MongoDB, Mongoose, Algolia, Firebase, Webpack, and Babel. 
 				<br/><br/>
 				I studied at NYU majoring in Art History and hold a minor in Urban 
 				Design. My interests include cooking, digital design, 
