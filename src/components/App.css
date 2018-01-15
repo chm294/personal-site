@@ -81,6 +81,7 @@ p {
   bottom: 0px;
   width:100%;
   font-family: 'Raleway', sans-serif;
+  font-size: 115%;
   flex-direction: row;
   flex-wrap:wrap;
   justify-content: space-evenly;  
@@ -107,7 +108,8 @@ p {
 }
 
 .text-container {
-  padding-bottom: 50px;
+  padding-bottom: 5%;
+  padding-top: 3%;
 }
 
 .body-text {
@@ -117,7 +119,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  font-size: 15;
+  font-size: 100%;
 }
 
 .card-container {
@@ -143,7 +145,7 @@ p {
   width: 100%;
   background-color: white;
   text-align: center;
-  color: rgba(128, 128, 128, 0.712);
+  color: rgba(128, 128, 128, 0.548);
   font-size: 65%;
 }
 
@@ -164,9 +166,12 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   animation: none;
+  opacity: .5;
+  transition: opacity .5s;
 }
 
 .icon:hover {
+  opacity:1;
   border-radius: 50%;
   /* background: #F28E62; */
   /* cursor: pointer; */
@@ -209,14 +214,14 @@ p {
   font-family: 'Raleway', sans-serif;
   display: flex;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 150%;
 }
 
 .sub-title {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  margin-left: 15px;
+  font-size: 115%;
+  /* margin-left: 15px; */
   margin-top: 10px;
 
 }
@@ -224,7 +229,7 @@ p {
 .bullet-text {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 90%;
   margin-left: 20px;
   padding: 2px;
 }
@@ -293,18 +298,19 @@ p {
   align-items:flex-start;
   align-content: flex-start;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 160%;
   padding: 10px;
 }
 
 .app-description-container {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 90%;
 }
 
 .app-header {
-  font-size: 18px;
+  font-size: 130%;
+  padding-bottom: 5px;
 }
 
 
