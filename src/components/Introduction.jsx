@@ -33,6 +33,8 @@ export default class Introduction extends React.Component {
 					<a href="https://vimeo.com/user53596363" target="_blank">
 						<img src="http://www.lakepointmuskego.org/hp_wordpress/wp-content/uploads/2016/03/vimeo-4-xxl.png" className="icon" alt="vimeo" /> 
 					</a>
+					<br/><br/><br/>
+				watercolor illustration by @Iraville
 				</div>
 			</div>
 		)

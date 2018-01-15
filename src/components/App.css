@@ -136,13 +136,15 @@ p {
 .contact-footer {
   text-decoration: none;
   color: black;
-  padding: 20px;
+  padding-bottom: 20px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: white;
   text-align: center;
+  color: rgba(128, 128, 128, 0.712);
+  font-size: 65%;
 }
 
 .contact-item {
@@ -161,8 +163,43 @@ p {
   width: 30px;
   margin-left: 10px;
   margin-right: 10px;
+  animation: none;
 }
 
+.icon:hover {
+  border-radius: 50%;
+  /* background: #F28E62; */
+  /* cursor: pointer; */
+  border: none;
+  /* box-shadow: 0 0 0 #F28E62; */
+  animation: pulse 1.5s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #F28E62;
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px #F28E62;
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 #F28E62;
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(242, 141, 98, 0.397);
+    box-shadow: 0 0 0 0 rgba(242, 141, 98, 0.418);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
 
 /* /////////////////////// RESUME CSS ///////////////////////*/
 
@@ -229,6 +266,7 @@ p {
   color: #F28E62;
   padding: 20px;
 }
+
 
 /* /////////////////////// APPLICATIONS CSS ///////////////////////*/
 
