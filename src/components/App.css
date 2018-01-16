@@ -3,12 +3,13 @@
   /* padding: 20px; */
   /* margin-left: 15%;
   margin-right: 15%; */
-  margin-bottom: 10%;
+  margin-bottom: 12%;
+  margin-top: 5%;
 }
 
 .parallax {
   background-image: url("https://pbs.twimg.com/media/DG47n23XYAEvSUD.jpg");
-  min-height: 750px; 
+  min-height: 500px; 
   position: relative;
 
   /* parallax scrolling effect */
@@ -45,7 +46,9 @@ p {
 
 .header-container {
   display: block;
-  background-color:none  ;
+  background-color:none;
+  margin: auto;
+  text-align: center;
 }
 
 .header {
@@ -85,7 +88,7 @@ p {
   flex-direction: row;
   flex-wrap:wrap;
   justify-content: space-evenly;  
-  /* padding: 20px; */
+  /* padding-bottom: 20px; */
 }
 
 .navitem {
