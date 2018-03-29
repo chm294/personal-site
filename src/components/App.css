@@ -74,7 +74,7 @@ p {
   bottom: 0px;
   width:100%;
   font-family: 'Raleway', sans-serif;
-  font-size: 115%;
+  font-size: 18px;
   flex-direction: row;
   flex-wrap:wrap;
   justify-content: space-evenly;  
@@ -111,7 +111,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  font-size: 100%;
+  font-size: 18px;
 }
 
 .card-container {
@@ -199,32 +199,27 @@ p {
 /* /////////////////////// RESUME CSS ///////////////////////*/
 
 .title {
-  text-decoration: none;
-  display: block;
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  font-size: 150%;
+  font-size: 30px;
 }
 
 .sub-title {
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-size: 115%;
+  font-size: 18px;
   margin-top: 10px;
-
 }
 
 .bullet-text {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 90%;
+  font-size: 15px;
   margin-left: 20px;
   padding: 2px;
 }
 
 .expand-button {
-  font-size: 25px;
+  display: inline-block;
+  font-size: 30px;
   padding-right: 20px;
+  padding-left: 5px;
   border: none;
   background: none;
   color: black;
@@ -242,6 +237,7 @@ p {
 
 .download-res-footer {
   text-decoration: none;
+  font-size: 18px;
   color: black;
   padding: 20px;
   position: fixed;
@@ -275,21 +271,14 @@ p {
   align-content: flex-start;
 }
 
-.app-name {
-  display: flex;
-  align-items:flex-start;
-  align-content: flex-start;
-  font-size: 160%;
-}
-
 .app-description-container {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 90%;
+  font-size: 15px;
 }
 
 .app-header {
-  font-size: 130%;
+  font-size: 18px;
   padding-bottom: 5px;
 }
 

@@ -6,7 +6,7 @@ export default class Applications extends React.Component {
 			<div className="content-container">
 				<section className="app-container">
 					<img className="demo-gifs" src="./images/Muster.gif" />
-					<a className="app-name" href="https://muster-94d83.firebaseapp.com/" target="_blank"> Muster </a>
+					<a className="title" href="https://muster-94d83.firebaseapp.com/" target="_blank"> Muster </a>
 					<div className="app-header">Full Stack Software Engineer</div>
 					<div className="app-description-container">
 							<em>A social-oriented book loan, trade, and purchasing application that simulates the experience of a library</em>
@@ -27,7 +27,7 @@ export default class Applications extends React.Component {
 				</section>
 				<section className="app-container">
 					<img className="demo-gifs" src="./images/TspaceRhinebeck.gif" />
-					<a className="app-name" href="http://tspacerhinebeck.org/" target="_blank"> TSpace Rhinebeck </a>
+					<a className="title" href="http://tspacerhinebeck.org/" target="_blank"> TSpace Rhinebeck </a>
 					<div className="app-header">Website Design and UI Management</div>
 					<div className="app-description-container">
 						<em>

@@ -5,7 +5,7 @@ export default function Fun (props) {
       <div className="content-container">
         <section className="app-container">
             <img className="demo-gifs" src="./images/Solarmap.gif" />
-            <a className="app-name" href="https://github.com/chm294/solarMap" target="_blank"> Solar Map </a>
+            <a className="title" href="https://github.com/chm294/solarMap" target="_blank"> Solar Map </a>
             <div className="app-description-container">
             March 2018<br/>
             Thinking of making the switch to renewable energy? Estimate if your location would be a hotspot for solar panels. 
@@ -18,7 +18,7 @@ export default function Fun (props) {
         </section>
         <section className="app-container">
             <img className="demo-gifs" src="./images/avatar.gif" />
-            <a className="app-name" href="https://github.com/chm294/avatarselector" target="_blank"> Avatar Selector </a>
+            <a className="title" href="https://github.com/chm294/avatarselector" target="_blank"> Avatar Selector </a>
             <div className="app-description-container">
             March 2018<br/>
             Small and simple react avatar selector component with css animations. 

@@ -38,7 +38,7 @@ export default class Resume extends React.Component {
 								including the redesigning of <a href="http://tspacerhinebeck.org/" target="_blank"> SMHF's new gallery website </a> and successfully kickstarting a new Architectural Fellowship Program </div>
 							<div className="sub-title" onClick={()=> {this.setState({infoExpand : !this.state.infoExpand})}}>
 								Other Experiences 
-								{this.state.infoExpand? <button className="expand-button"> - </button> : <button className="expand-button"> + </button>}
+								{this.state.infoExpand ? <div className="expand-button"> - </div> : <div className="expand-button"> + </div>}
 							</div>
 								{this.state.infoExpand ? <div className="bullet-text" >
 									Grants Intern at Foundation for Contemporary Arts <br/>
