@@ -16,7 +16,7 @@ export default class Resume extends React.Component {
 					<div className="card-container">
 						<div className="title">Skills</div>
 						<div className="sub-title">Programming</div>
-							<div className="bullet-text">Experienced : Javascript, ES6, React, Node, Axios, Algolia, Firebase, Express, SQL, Sequelize, Webpack, Babel</div>
+							<div className="bullet-text">Experienced : Javascript, ES6, HTML, CSS, React, Node, Axios, Algolia, Firebase, Express, SQL, Sequelize, Webpack, Babel</div>
 							<div className="bullet-text">Familiar : Angular, Postgres, Mocha, MongoDB, Mongoose</div>
 
 						<div className="sub-title">Design</div>

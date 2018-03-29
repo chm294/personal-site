@@ -1,17 +1,12 @@
 import React from 'react'
 
 export default class Applications extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {};
-	}
-
 	render() {
 		return (
 			<div className="content-container">
 				<section className="app-container">
-						<a className="app-name" href="https://muster-94d83.firebaseapp.com/" target="_blank"> Muster </a>
-						<img className="demo-gifs" src="./images/Muster.gif" />
+					<img className="demo-gifs" src="./images/Muster.gif" />
+					<a className="app-name" href="https://muster-94d83.firebaseapp.com/" target="_blank"> Muster </a>
 					<div className="app-description-container">
 						<div className="app-header">Full Stack Software Engineer</div>
 							<em>A social-oriented book loan, trade, and purchasing application that simulates the experience of a library</em>
@@ -31,8 +26,8 @@ export default class Applications extends React.Component {
 					</div>
 				</section>
 				<section className="app-container">
-						<a className="app-name" href="http://tspacerhinebeck.org/" target="_blank"> TSpace Rhinebeck </a>
-						<img className="demo-gifs" src="./images/TspaceRhinebeck.gif" />
+					<img className="demo-gifs" src="./images/TspaceRhinebeck.gif" />
+					<a className="app-name" href="http://tspacerhinebeck.org/" target="_blank"> TSpace Rhinebeck </a>
 					<div className="app-description-container">
 						<div className="app-header">Website Design and UI Management</div>
 						<em>

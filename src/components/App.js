@@ -5,14 +5,9 @@ import Introduction from './Introduction.jsx';
 import Resume from './Resume';
 import Applications from './Applications';
 import Blurb from './Blurb';
+import Fun from './Fun';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-
-    } 
-  }
   render() {
     return (
       <Router>
@@ -24,7 +19,8 @@ class App extends Component {
         <div>
           <nav className="navbar" id="navbar"> 
             <Link to="Resume" className="navitem">Resume</Link>
-            <Link to="/Applications" className="navitem">Applications</Link>
+            <Link to="/Applications" className="navitem">Deployed</Link>
+            <Link to="Fun" className="navitem">Just for Fun</Link>
             <Link to="Blurb" className="navitem">Blurb</Link>
           </nav>
         </div>
@@ -32,6 +28,7 @@ class App extends Component {
           <Route exact path="/" component={Introduction} />
           <Route exact path="/Resume" component={Resume} />
           <Route exact path="/Applications" component={Applications} />
+          <Route exact path="/Fun" component={Fun} />
           <Route exact path="/Blurb" component={Blurb} />
         </div>
       </Router>
