@@ -14,7 +14,7 @@ export default class Resume extends React.Component {
 				<div className="text-container">
 
 					<div className="card-container">
-						<div className="title">Skills</div>
+						<header className="title">Skills</header>
 						<div className="sub-title">Programming</div>
 							<div className="bullet-text">Experienced : Javascript, ES6, HTML, CSS, React, Node, Axios, Algolia, Firebase, Express, SQL, Sequelize, Webpack, Babel</div>
 							<div className="bullet-text">Familiar : Angular, Postgres, Mocha, MongoDB, Mongoose</div>
@@ -30,7 +30,7 @@ export default class Resume extends React.Component {
 
 					</div>
 					<div className="card-container">
-						<div className="title">Experience</div>
+						<header className="title">Experience</header>
 							<div className="sub-title">Hack Reactor</div>
 								<div className="bullet-text">Advanced Software Engineer Immersive Program</div>
 							<div className="sub-title">Steven Myron Holl Foundation, Operations</div>
@@ -48,7 +48,7 @@ export default class Resume extends React.Component {
 
 					</div>
 					<div className="card-container">
-						<div className="title">Education</div>
+						<header className="title">Education</header>
 							<div className="sub-title">New York University</div>
 								<div className="bullet-text">BA Art History
 								<br/> Minor Architecture and Urban Design 

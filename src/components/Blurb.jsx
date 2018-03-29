@@ -5,7 +5,7 @@ export default class Blurb extends React.Component {
 		return (
 			<div className="content-container">
 				<div className="app-container">
-						<img className="demo-gifs" src="./images/DonaldJudd.gif" />
+					<img className="demo-gifs" src="./images/DonaldJudd.gif" />
 				<div className="blurb-text">
 					<div className="app-header">Architectural Drawing and Model: Donald Judd Standing Desk</div>
 						Created 2016 <br/> 
@@ -13,7 +13,7 @@ export default class Blurb extends React.Component {
 					</div>
 				</div>
 				<div className="app-container">
-						<img className="demo-gifs" src="./images/cube.gif" />
+					<img className="demo-gifs" src="./images/cube.gif" />
 				<div className="blurb-text">
 					<div className="app-header">Architectural Drawing and Model: Concept Cube</div>
 						Created 2016 <br/> 
